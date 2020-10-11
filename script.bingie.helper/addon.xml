@@ -13,7 +13,7 @@
 		<license>GPL v3.0</license>
 		<forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
 		<website></website>
-		<source>https://github.com/cartmandos/script.bingie.helper/</source>
+		<source>https://github.com/cocorepo/script.bingie.helper/</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
     <!-- REPOS -->
-    <addon id="repository.bingie" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
+    <addon id="repository.coconut" name="BINGIE Repository" provider-name="cartman.dos" version="1.0.2">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension name="bingie repository" point="xbmc.addon.repository">
-            <info compressed="false">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/cartmandos/repository.bingie/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/cartmandos/repository.bingie/master/</datadir>
+        <extension name="coconut repository" point="xbmc.addon.repository">
+            <info compressed="false">https://raw.githubusercontent.com/cocorepo/repository.coconut/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/cocorepo/repository.coconut/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/cocorepo/repository.coconut/master/</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary lang="en">Home of Titan BINGIE</summary>
@@ -45,7 +45,7 @@
         </extension>
     </addon>
     <!-- TITAN BINGIE -->
-    <addon id="skin.titan.bingie" version="1.0.3" name="Titan BINGIE" provider-name="cartman.dos">
+    <addon id="skin.coconut" version="1.0.3" name="Titan BINGIE" provider-name="cartman.dos">
         <requires>
             <import version="5.14.0" addon="xbmc.gui"/>
             <import addon="script.bingie.helper" version="1.0.0"/>
@@ -69,7 +69,7 @@
             <forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
             <website>https://forum.kodi.tv/showthread.php?tid=334820</website>
             <email></email>
-            <source>https://github.com/cartmandos/skin.titan.bingie/</source>
+            <source>https://github.com/cocorepo/skin.coconut/</source>
             <assets>
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
@@ -106,7 +106,7 @@
             <license>GPL v3.0</license>
             <forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
             <website></website>
-            <source>https://github.com/cartmandos/script.bingie.helper/</source>
+            <source>https://github.com/cocorepo/script.bingie.helper/</source>
             <assets>
                 <icon>resources/icon.png</icon>
                 <fanart>resources/fanart.jpg</fanart>
@@ -135,7 +135,7 @@
             <license>GPL v2.0</license>
             <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
             <website></website>
-            <source>https://github.com/cartmandos/script.skin.helper.widgets</source>
+            <source>https://github.com/cocorepo/script.skin.helper.widgets</source>
             <news>
                 [B]v1.1.1[/B][CR]A lot of new widgets to choose from![CR]Bug fixes and other improvements[CR]Follow the forum thread about the latest news.[CR]https://forum.kodi.tv/showthread.php?tid=334820
             </news>
@@ -192,7 +192,7 @@
             <license>GPL v2.0</license>
             <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
             <website></website>
-            <source>https://github.com/cartmandos/script.skin.helper.service</source>
+            <source>https://github.com/cocorepo/script.skin.helper.service</source>
         </extension>
     </addon>
 
@@ -212,7 +212,7 @@
             <license>GPL v2.0</license>
             <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
             <website></website>
-            <source>https://github.com/cartmandos/script.skin.helper.skinbackup</source>
+            <source>https://github.com/cocorepo/script.skin.helper.skinbackup</source>
         </extension>
     </addon>
 
@@ -282,7 +282,7 @@
             <license>GPL v2.0</license>
             <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
             <website></website>
-            <source>https://github.com/cartmandos/script.skin.helper.backgrounds</source>
+            <source>https://github.com/cocorepo/script.skin.helper.backgrounds</source>
         </extension>
     </addon>
 
@@ -301,7 +301,7 @@
             <license>GPL v2.0</license>
             <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
             <website></website>
-            <source>https://github.com/cartmandos/script.skin.helper.colorpicker</source>
+            <source>https://github.com/cocorepo/script.skin.helper.colorpicker</source>
         </extension>
     </addon>
 
@@ -441,7 +441,7 @@
             </description>
             <license>Apache 2.0</license>
             <forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
-            <source>https://github.com/cartmandos/script.module.metadatautils</source>
+            <source>https://github.com/cocorepo/script.module.metadatautils</source>
             <platform>all</platform>
         </extension>
     </addon>
@@ -534,7 +534,7 @@
             <license>GPL v3.0</license>
             <forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
             <website></website>
-            <source>https://github.com/cartmandos/resource.images.moviegenreicons.bingie/</source>
+            <source>https://github.com/cocorepo/resource.images.moviegenreicons.bingie/</source>
         </extension>
     </addon>
     <addon id="resource.images.backgroundoverlays.basic" name="Background Overlays Pack - Basic" version="1.0.0" provider-name="marcelveldt, mgonzales">
@@ -582,7 +582,7 @@
             <license>GPL v3.0</license>
             <forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
             <website></website>
-            <source>https://github.com/cartmandos/resource.images.skinicons.wide/</source>
+            <source>https://github.com/cocorepo/resource.images.skinicons.wide/</source>
         </extension>
     </addon>
 </addons>

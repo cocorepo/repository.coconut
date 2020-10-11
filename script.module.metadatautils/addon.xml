@@ -22,7 +22,7 @@
         </description>
         <license>Apache 2.0</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=334820</forum>
-        <source>https://github.com/cartmandos/script.module.metadatautils</source>
+        <source>https://github.com/cocorepo/script.module.metadatautils</source>
         <platform>all</platform>
     </extension>
 </addon>

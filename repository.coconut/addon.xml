@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.coconut" name="Cococnut Repository" provider-name="cartman.dos" version="1.0.2">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+	<extension name="coconut repository" point="xbmc.addon.repository">
+		<info compressed="false">https://raw.githubusercontent.com/cocorepo/repository.coconut/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/cocorepo/repository.coconut/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/cocorepo/repository.coconut/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Home of Coconut Skin</summary>
+		<description lang="en">Coconut repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
