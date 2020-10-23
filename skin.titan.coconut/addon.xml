@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BINGIE -->
+<addon id="skin.titan.coconut" version="1.0.0" name="Titan Bingie Coconut" provider-name="cocorepo">
+	<requires>
+		<import version="5.14.0" addon="xbmc.gui"/>
+		<import addon="script.bingie.helper" version="1.0.0"/>
+		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+        <import addon="script.skin.helper.widgets" version="1.0.0"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
+        <import addon="resource.images.skinbackgrounds.titanium" version="1.0.0"/>
+        <import addon="resource.images.skinicons.wide" version="1.0.0"/>
+        <import addon="resource.images.backgroundoverlays.basic" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Titan Bingie Coconut... A simple skin for children.</summary>
+		<description>A simple skin so my children will watch shows and movies that aren't on Netflix</description>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=355993</forum>
+		<website>https://forum.kodi.tv/showthread.php?tid=355993</website>
+		<email></email>
+		<source>https://github.com/cocorepo/repository.coconut.git/</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+		</assets>
+		<news>
+		    None.
+		</news>
+	</extension>
+</addon>
